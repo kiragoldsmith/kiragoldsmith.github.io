@@ -5,13 +5,45 @@
     src: url(../fonts/CrimsonText-Roman.ttf);
 }
 
+body {
+    background-image: url(../imgs/crossword.png);
+}
+
 .main-title {
-    font-family: "Crimson";
+    font-family: "Crimson" serif;
     text-align: center;
     color: black;
-    line-height: 200px;
-    height: 200px;
-    font-size: 100px;
+    line-height: 150px;
+    min-height: 150px;
+    font-size: 75px;
     width: 100%;
-    background-color: white;
+}
+
+.main-title:hover {
+    cursor: default;
+}
+
+.header-container {
+    width: 75%;
+    margin: auto;
+    min-height: 50px;
+    text-align: center;
+    font-family: "Crimson" serif;
+    font-size: 25px;
+}
+
+.header-container > div {
+    padding: 10px auto;
+}
+
+.header-container a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.header-container a:hover {
+    border-bottom: 2px solid black;
 }
