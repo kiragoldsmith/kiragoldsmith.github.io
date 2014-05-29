@@ -10,10 +10,19 @@
     src: url(../fonts/Molengo-Regular.ttf);
 }
 
+html,
 body {
     font-family: "Crimson" serif;
     font-size: 24px;
     background-image: url(../imgs/crossword.png);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.site-wrapper {
+    position: relative;
+    min-height: 100%;
 }
 
 p {
@@ -64,11 +73,35 @@ p {
     border-bottom: 2px solid black;
 }
 
-
-
 .row > div > img {
     max-width: 100%;
     margin: auto;
     display: block;
 }
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer > a {
+    line-height: 100px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.fa-facebook-square {
+    color: rgb(59,89,152);
+}
+
+.fa-twitter {
+    color: rgb(85, 172, 238);
+}
+
+.fa:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
