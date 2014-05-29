@@ -5,22 +5,37 @@
     src: url(../fonts/CrimsonText-Roman.ttf);
 }
 
+@font-face {
+    font-family: "Molengo";
+    src: url(../fonts/Molengo-Regular.ttf);
+}
+
 body {
+    font-family: "Crimson" serif;
+    font-size: 24px;
     background-image: url(../imgs/crossword.png);
 }
 
+p {
+    font-family: "Molengo";
+}
+
 .main-title {
-    font-family: "Crimson" serif;
-    text-align: center;
-    color: black;
     line-height: 150px;
     min-height: 150px;
     font-size: 75px;
     width: 100%;
+    text-align: center;
 }
 
-.main-title:hover {
-    cursor: default;
+.main-title > a {
+    font-family: "Crimson" serif;
+    color: black;
+    text-decoration: none;
+}
+
+.main-title > a:hover {
+    text-decoration: none;
 }
 
 .header-container {
@@ -30,6 +45,7 @@ body {
     text-align: center;
     font-family: "Crimson" serif;
     font-size: 25px;
+    padding-bottom: 50px;
 }
 
 .header-container > div {
@@ -47,3 +63,12 @@ body {
 .header-container a:hover {
     border-bottom: 2px solid black;
 }
+
+
+
+.row > div > img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
