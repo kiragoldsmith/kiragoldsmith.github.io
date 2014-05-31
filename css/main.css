@@ -48,7 +48,6 @@ p {
 }
 
 .header-container {
-    width: 75%;
     margin: auto;
     min-height: 50px;
     text-align: center;
@@ -93,15 +92,31 @@ p {
     transition: 0.3s;
 }
 
-.fa-facebook-square {
+.fa-facebook-square, .fa-facebook-square:hover {
     color: rgb(59,89,152);
 }
 
-.fa-twitter {
+.fa-envelope-o, .fa-envelope-o:hover {
+    color: rgb(216,62,45);
+}
+
+.fa-twitter, .fa-twitter:hover {
     color: rgb(85, 172, 238);
+}
+
+.fa-youtube-square, .fa-youtube-square:hover {
+    color: rgb(229,45,39);
 }
 
 .fa:hover {
     text-decoration: none;
     opacity: 0.5;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+form .row {
+    padding: 20px;
 }
