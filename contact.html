@@ -31,33 +31,45 @@
         <div class="col-md-2 col-xs-6 col-sm-4"><a href="contact.html">Contact</a></div>
     </div>
 
-    <div class="main container">
+    <div class="main container footpad">
         <div class="row">
             <div class="col-md-6">
+                <h1 style="font-size: 48px; text-align: center; padding-bottom: 15px;">I like you too!</h1>
+                <p>Thank you for your interest!  Feel free to leave a message or contact me thorugh any of the social media sites listed below!  You can also give me a call at (914) 714-2214.</p>
             </div>
             <div class="col-md-6">
-                <form role="form" class="contact">
+                <form role="form" class="contact" id="contact">
                     <div class="row">
                         <div class="col-md-6">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" name="firstname" id="first" placeholder="First Name" required>
+                            <label for="firstname">First Name</label>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" placeholder="Last Name">
+                            <input type="text" name="lastname" id="last" placeholder="Last Name" required>
+                            <label for="lastname">Last Name</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <input type="email" placeholder="Email Address">
+                            <input type="text" name="email" id="email" placeholder="Email Address" required>
+                            <label for="email">Email Address</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <input type="text" placeholder="Subject">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
-                            <textarea rows="4" placeholder="Message"></textarea>
+                            <textarea rows="6" name="message" id="message" placeholder="Message" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn-send">SEND</button>
                         </div>
                     </div>
                 </form>
