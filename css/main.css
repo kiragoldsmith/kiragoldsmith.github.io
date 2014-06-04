@@ -208,7 +208,6 @@ textarea {
     opacity: 1;
 }
 
-
-
-
-
+.fa-phone-square, .fa-phone-square:hover {
+    color: rgb(229,45,39);
+}
