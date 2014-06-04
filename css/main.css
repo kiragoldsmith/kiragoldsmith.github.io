@@ -28,9 +28,8 @@ p, form {
 }
 
 .main-title {
-    line-height: 150px;
-    min-height: 150px;
-    font-size: 75px;
+    height: 150px;
+    line-height: 150px; 
     width: 100%;
     text-align: center;
 }
@@ -94,7 +93,7 @@ p, form {
     color: rgb(59,89,152);
 }
 
-.fa-envelope-o, .fa-envelope-o:hover {
+.fa-envelope-square, .fa-envelope-square:hover {
     color: rgb(216,62,45);
 }
 
@@ -208,3 +207,8 @@ textarea {
     height: 400%;
     opacity: 1;
 }
+
+
+
+
+

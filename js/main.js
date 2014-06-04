@@ -1,4 +1,4 @@
-function sendEmail () {
+function sendEmail() {
 	var name = $('#first').val() + " " + $('#last').val(),
 		email = $('#email').val(),
 		subject = $('#subject').val(),
@@ -13,3 +13,5 @@ $('#contact').submit(function () {
 	$('#contact').html('Thanks for the email!  I\'ll be in touch.');
 	return false;
 });
+
+$('.main-title').fitText(1, { minFontSize: '40px', maxFontSize: '75px' });
