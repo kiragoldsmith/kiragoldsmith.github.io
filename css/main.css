@@ -69,6 +69,10 @@ p, form {
     border-bottom: 2px solid black;
 }
 
+.main {
+    padding-bottom: 15px;
+}
+
 .row > div > img {
     max-width: 100%;
     margin: auto;
