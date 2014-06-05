@@ -15,3 +15,12 @@ $('#contact').submit(function () {
 });
 
 $('.main-title').fitText(1, { minFontSize: '40px', maxFontSize: '75px' });
+
+$(document).ready(function ($) {
+
+				// delegate calls to data-toggle="lightbox"
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox();
+				});
+});
