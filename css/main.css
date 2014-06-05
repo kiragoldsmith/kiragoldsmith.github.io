@@ -28,7 +28,7 @@ p, form {
 }
 
 .main-title {
-    height: 150px;
+    min-height: 150px;
     line-height: 150px; 
     width: 100%;
     text-align: center;
@@ -210,4 +210,42 @@ textarea {
 
 .fa-phone-square, .fa-phone-square:hover {
     color: rgb(229,45,39);
+}
+
+.res-basic {
+    padding: 15px;
+    border: 2px solid black;
+}
+
+.main-res {
+    font-family: "Molengo";
+    padding: 20px 0;
+}
+
+.main-res dd {
+    padding: 15px 0;
+}
+
+.main-res dd:last-child {
+    padding-bottom: 0;
+}
+
+.school {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.prod {
+    padding-bottom:15px;
+}
+
+.prod:last-child {
+    padding-bottom: 0;
+}
+
+.name {
+    text-align: left;
+    font-size: 35px;0px;
+    padding: 10px 0;
 }
