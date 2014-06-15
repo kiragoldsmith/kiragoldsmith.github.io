@@ -17,6 +17,15 @@ body {
     padding: 0;
     height: 100%;
 }
+div {
+    overflow: hidden;
+}
+
+div > h1 {
+    font-size: 48px; 
+    text-align: center; 
+    padding-bottom: 15px;
+}
 
 .site-wrapper {
     position: relative;
@@ -82,12 +91,16 @@ p, form {
 .footer {
     position: absolute;
     bottom: 0;
-    height: 100px;
+    font-size: 20px;
     width: 100%;
     text-align: center;
 }
 
-.footer > a {
+.socials {
+    text-align: center;
+}
+
+.socials > a {
     line-height: 100px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
@@ -250,6 +263,6 @@ textarea {
 
 .name {
     text-align: left;
-    font-size: 35px;0px;
+    font-size: 35px;
     padding: 10px 0;
 }
