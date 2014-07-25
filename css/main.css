@@ -10,7 +10,7 @@
 
 html,
 body {
-    font-family: "Crimson" serif;
+    font-family: "Crimson", serif;
     font-size: 24px;
     background-image: url(../imgs/crossword.png);
     margin: 0;
@@ -33,7 +33,7 @@ div > h1 {
 }
 
 p, form {
-    font-family: "Molengo";
+    font-family: "Molengo", sans-serif;
 }
 
 .main-title {
@@ -44,7 +44,7 @@ p, form {
 }
 
 .main-title > a {
-    font-family: "Crimson" serif;
+    font-family: "Crimson", serif;
     color: black;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ p, form {
     margin: auto;
     min-height: 50px;
     text-align: center;
-    font-family: "Crimson" serif;
+    font-family: "Crimson", serif;
     font-size: 25px;
     padding-bottom: 50px;
 }
