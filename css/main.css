@@ -88,6 +88,28 @@ p, form {
     display: block;
 }
 
+.row > .pic {
+    padding-bottom: 15px;
+}
+
+.row > .pic:last-child {
+    padding-bottom: 0px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .row > .pic:nth-last-child(2) {
+        padding-bottom: 0;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .row > .pic:nth-last-child(3) {
+        padding-bottom: 0;
+    }
+}
+
 .footer {
     position: absolute;
     bottom: 0;
