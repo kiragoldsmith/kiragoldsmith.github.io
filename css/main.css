@@ -296,3 +296,17 @@ textarea {
 .vid-sec, .photo-sec, .vid-des {
     text-align: center;
 }
+
+audio {
+    width: 100%;
+}
+
+.song {
+    padding: 15px 0;
+}
+
+.crosseyed {
+    display: block;
+    border-radius: 60px;
+    margin: 0 auto;
+}
